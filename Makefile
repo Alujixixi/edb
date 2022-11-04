@@ -129,29 +129,29 @@ a/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/build
 .PHONY : a/fast
 
-plg.o: plg.cpp.o
-.PHONY : plg.o
+floatNumberCompareInBits.o: floatNumberCompareInBits.cpp.o
+.PHONY : floatNumberCompareInBits.o
 
 # target to build an object file
-plg.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/plg.cpp.o
-.PHONY : plg.cpp.o
+floatNumberCompareInBits.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o
+.PHONY : floatNumberCompareInBits.cpp.o
 
-plg.i: plg.cpp.i
-.PHONY : plg.i
+floatNumberCompareInBits.i: floatNumberCompareInBits.cpp.i
+.PHONY : floatNumberCompareInBits.i
 
 # target to preprocess a source file
-plg.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/plg.cpp.i
-.PHONY : plg.cpp.i
+floatNumberCompareInBits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/floatNumberCompareInBits.cpp.i
+.PHONY : floatNumberCompareInBits.cpp.i
 
-plg.s: plg.cpp.s
-.PHONY : plg.s
+floatNumberCompareInBits.s: floatNumberCompareInBits.cpp.s
+.PHONY : floatNumberCompareInBits.s
 
 # target to generate assembly for a file
-plg.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/plg.cpp.s
-.PHONY : plg.cpp.s
+floatNumberCompareInBits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/floatNumberCompareInBits.cpp.s
+.PHONY : floatNumberCompareInBits.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... a"
-	@echo "... plg.o"
-	@echo "... plg.i"
-	@echo "... plg.s"
+	@echo "... floatNumberCompareInBits.o"
+	@echo "... floatNumberCompareInBits.i"
+	@echo "... floatNumberCompareInBits.s"
 .PHONY : help
 
 

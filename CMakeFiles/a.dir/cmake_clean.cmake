@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/a.dir/plg.cpp.o"
-  "CMakeFiles/a.dir/plg.cpp.o.d"
+  "CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o"
+  "CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o.d"
   "a"
   "a.pdb"
 )

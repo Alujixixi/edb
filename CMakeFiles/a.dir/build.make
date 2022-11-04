@@ -69,28 +69,28 @@ include CMakeFiles/a.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.dir/flags.make
 
-CMakeFiles/a.dir/plg.cpp.o: CMakeFiles/a.dir/flags.make
-CMakeFiles/a.dir/plg.cpp.o: plg.cpp
-CMakeFiles/a.dir/plg.cpp.o: CMakeFiles/a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aluji/playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.dir/plg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a.dir/plg.cpp.o -MF CMakeFiles/a.dir/plg.cpp.o.d -o CMakeFiles/a.dir/plg.cpp.o -c /home/aluji/playground/plg.cpp
+CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o: CMakeFiles/a.dir/flags.make
+CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o: floatNumberCompareInBits.cpp
+CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o: CMakeFiles/a.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aluji/playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o -MF CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o.d -o CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o -c /home/aluji/playground/floatNumberCompareInBits.cpp
 
-CMakeFiles/a.dir/plg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.dir/plg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aluji/playground/plg.cpp > CMakeFiles/a.dir/plg.cpp.i
+CMakeFiles/a.dir/floatNumberCompareInBits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.dir/floatNumberCompareInBits.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aluji/playground/floatNumberCompareInBits.cpp > CMakeFiles/a.dir/floatNumberCompareInBits.cpp.i
 
-CMakeFiles/a.dir/plg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.dir/plg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aluji/playground/plg.cpp -o CMakeFiles/a.dir/plg.cpp.s
+CMakeFiles/a.dir/floatNumberCompareInBits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.dir/floatNumberCompareInBits.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aluji/playground/floatNumberCompareInBits.cpp -o CMakeFiles/a.dir/floatNumberCompareInBits.cpp.s
 
 # Object files for target a
 a_OBJECTS = \
-"CMakeFiles/a.dir/plg.cpp.o"
+"CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o"
 
 # External object files for target a
 a_EXTERNAL_OBJECTS =
 
-a : CMakeFiles/a.dir/plg.cpp.o
+a : CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o
 a : CMakeFiles/a.dir/build.make
 a : /home/aluji/openfhe-development/build/lib/libOPENFHEpke.so.0.9.2
 a : /home/aluji/openfhe-development/build/lib/libOPENFHEbinfhe.so.0.9.2
