@@ -46,6 +46,8 @@ endif()
 # add_executable( a example_openFHE.cpp )
 # add_executable( a plg.cpp )
 add_executable( a floatNumberCompareInBits.cpp )
+# add_executable( a floatNumberCompareByBFV.cpp )
+# add_executable( a test.cpp )
 ###
 ### EXAMPLE:
 ### add_executable( test demo-simple-example.cpp )

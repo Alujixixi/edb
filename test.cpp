@@ -1,26 +1,47 @@
 #include <iostream>
-#include <cmath>
+#include <string.h>
+
 
 using namespace std;
 
+void printBits16(int32_t t) {
+    for (int i = 16 - 1; i >= 0; i--) {
+        cout << ((t & (1 << i)) >> i);
+    }
+    cout << endl;
+}
+
+void printBits32(int32_t t) {
+    for (int i = 32 - 1; i >= 0; i--) {
+        cout << ((t & (1 << i)) >> i);
+    }
+    cout << endl;
+}
+
+void printBits64(int64_t t) {
+    for (int i = 64 - 1; i >= 0; i--) {
+        cout << ((t & (1 << i)) >> i);
+    }
+    cout << endl;
+}
+
 int main() {
 
-    // compute a^x
-    int a = 30;
-    int x = 65535;
-    int res = 1;
+    float num1 = 112312.25f;
 
-    int mulcnt = 0;
+    int16_t byte1[2] = {0};
+    
+    
+    memcpy(byte1, &num1, 4);
 
-    for (int i = x - 1; i > 0; i >>= 1) {
-        mulcnt++;
-        if(i&1) {
-            res =  (a * res) % x;
-        }
-        a = (a * a) % x;
-    }    
+    
+    int32_t byte;
+    memcpy(&byte, &num1, 4);
 
-    cout << "mulcnt: " << mulcnt << endl;
-    cout << "res: " << res << endl;
-    cout << log2(65525) << endl;
+    printBits32(byte);
+    printBits16(byte1[0]);
+    printBits16(byte1[1]);
+
+    return 0;
+
 }

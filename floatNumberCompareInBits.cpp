@@ -5,15 +5,22 @@ using std::cout;
 using std::endl;
 using std::memcpy;
 
-void printBits32(int32_t t) {
-    for (int i = 0; i < 32; i++) {
+inline void printBits16(int32_t t) {
+    for (int i = 16 - 1; i >= 0; i--) {
         cout << ((t & (1 << i)) >> i);
     }
     cout << endl;
 }
 
-void printBits64(int64_t t) {
-    for (int i = 0; i < 64; i++) {
+inline void printBits32(int32_t t) {
+    for (int i = 32 - 1; i >= 0; i--) {
+        cout << ((t & (1 << i)) >> i);
+    }
+    cout << endl;
+}
+
+inline void printBits64(int64_t t) {
+    for (int i = 64 - 1; i >= 0; i--) {
         cout << ((t & (1 << i)) >> i);
     }
     cout << endl;
