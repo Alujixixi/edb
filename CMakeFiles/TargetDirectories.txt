@@ -1,3 +1,3 @@
-/home/aluji/playground/CMakeFiles/a.dir
-/home/aluji/playground/CMakeFiles/edit_cache.dir
-/home/aluji/playground/CMakeFiles/rebuild_cache.dir
+/home/aluji/edb/CMakeFiles/a.dir
+/home/aluji/edb/CMakeFiles/edit_cache.dir
+/home/aluji/edb/CMakeFiles/rebuild_cache.dir

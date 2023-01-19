@@ -7,9 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/aluji/openfhe-development/build/OpenFHEConfig.cmake"
-  "/home/aluji/openfhe-development/build/OpenFHEConfigVersion.cmake"
-  "/home/aluji/openfhe-development/build/OpenFHETargets.cmake"
   "CMakeFiles/3.24.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.3/CMakeSystem.cmake"
   "CMakeLists.txt"
@@ -27,6 +24,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/cmake/1186/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake"
   "/snap/cmake/1186/share/cmake-3.24/Modules/Platform/Linux.cmake"
   "/snap/cmake/1186/share/cmake-3.24/Modules/Platform/UnixPaths.cmake"
+  "/usr/local/lib/OpenFHE/OpenFHEConfig.cmake"
+  "/usr/local/lib/OpenFHE/OpenFHEConfigVersion.cmake"
+  "/usr/local/lib/OpenFHE/OpenFHETargets-release.cmake"
+  "/usr/local/lib/OpenFHE/OpenFHETargets.cmake"
   )
 
 # The corresponding makefile is:

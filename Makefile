@@ -57,10 +57,10 @@ RM = /snap/cmake/1186/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aluji/playground
+CMAKE_SOURCE_DIR = /home/aluji/edb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aluji/playground
+CMAKE_BINARY_DIR = /home/aluji/edb
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/aluji/playground
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/snap/cmake/1088/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1186/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aluji/playground/CMakeFiles /home/aluji/playground//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aluji/edb/CMakeFiles /home/aluji/edb//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aluji/playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aluji/edb/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ a/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/build
 .PHONY : a/fast
 
-floatNumberCompareInBits.o: floatNumberCompareInBits.cpp.o
-.PHONY : floatNumberCompareInBits.o
+EQTest/crtEQTest.o: EQTest/crtEQTest.cpp.o
+.PHONY : EQTest/crtEQTest.o
 
 # target to build an object file
-floatNumberCompareInBits.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/floatNumberCompareInBits.cpp.o
-.PHONY : floatNumberCompareInBits.cpp.o
+EQTest/crtEQTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/EQTest/crtEQTest.cpp.o
+.PHONY : EQTest/crtEQTest.cpp.o
 
-floatNumberCompareInBits.i: floatNumberCompareInBits.cpp.i
-.PHONY : floatNumberCompareInBits.i
+EQTest/crtEQTest.i: EQTest/crtEQTest.cpp.i
+.PHONY : EQTest/crtEQTest.i
 
 # target to preprocess a source file
-floatNumberCompareInBits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/floatNumberCompareInBits.cpp.i
-.PHONY : floatNumberCompareInBits.cpp.i
+EQTest/crtEQTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/EQTest/crtEQTest.cpp.i
+.PHONY : EQTest/crtEQTest.cpp.i
 
-floatNumberCompareInBits.s: floatNumberCompareInBits.cpp.s
-.PHONY : floatNumberCompareInBits.s
+EQTest/crtEQTest.s: EQTest/crtEQTest.cpp.s
+.PHONY : EQTest/crtEQTest.s
 
 # target to generate assembly for a file
-floatNumberCompareInBits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/floatNumberCompareInBits.cpp.s
-.PHONY : floatNumberCompareInBits.cpp.s
+EQTest/crtEQTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/EQTest/crtEQTest.cpp.s
+.PHONY : EQTest/crtEQTest.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... a"
-	@echo "... floatNumberCompareInBits.o"
-	@echo "... floatNumberCompareInBits.i"
-	@echo "... floatNumberCompareInBits.s"
+	@echo "... EQTest/crtEQTest.o"
+	@echo "... EQTest/crtEQTest.i"
+	@echo "... EQTest/crtEQTest.s"
 .PHONY : help
 
 
